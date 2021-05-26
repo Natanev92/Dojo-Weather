@@ -1,0 +1,104 @@
+*{  
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    } 
+.topbar{
+    background-color: rgb(113, 124, 113);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+.navbar{
+    border-bottom: 2px solid black;
+    width:1000px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-top: 25px;
+    padding-bottom: 15px;
+}
+#temp{
+    margin-left: 10px;
+}
+
+.navbarr{
+    display: flex;
+    
+}
+
+.main{
+    display: flex;
+    margin-left: 120px;
+    margin-right: 100px;
+    justify-content: space-between;
+}
+
+.today{
+    width: 200px;
+    height:300px;
+    background-color: antiquewhite;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.tomorrow{
+    width: 200px;
+    height:300px;
+    background-color: antiquewhite;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.friday{
+    width: 200px;
+    height:300px;
+    background-color: antiquewhite;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.saturday{
+    width: 200px;
+    height:300px;
+    background-color: antiquewhite;
+    text-align: center;
+    margin-top: 25px;
+}
+img{
+    margin-top: 10px;
+    border-radius: 50%;
+    height: 100px;
+}
+
+.temps{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+.high{
+    color: red;
+}
+.low{
+    color: blue;
+}
+
+#message{
+    display: flex;
+    width:1000px;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    box-shadow: 4px 4px 4px 4px grey;
+    margin-left: 100px;
+    position:fixed;
+    align-items: center;
+}
+button{
+    width:80px;
+    height: 40px;
+    background-color: cornflowerblue;
+}
